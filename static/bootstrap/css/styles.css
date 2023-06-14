@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 95%);
+
+}
+.cars{
+    width: 45%;
+    height: 55vh;
+    margin-right: 24%;
+    margin-left: 24%;
+    margin-top: 20vh;
+
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+button{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    width: 150px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.sedan-btn{
+    color: hsl(31, 77%, 52%);
+}
+.suv-btn{
+    color: hsl(184, 100%, 22%);
+}
+.luxury-btn{
+    color: hsl(179, 100%, 13%);
+}
