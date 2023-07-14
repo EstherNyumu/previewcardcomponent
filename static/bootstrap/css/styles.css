@@ -11,17 +11,14 @@ body{
     margin-top: 12%;
 }
 .sedans{
-    /*width: 30%;*/
     background-color: hsl(31, 77%, 52%);
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
 .suvs{
-    /*width: 40%;*/
     background-color: hsl(184, 100%, 22%);
 }
 .luxury{
-    /*width: 45%;*/
     background-color: hsl(179, 100%, 13%);
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
@@ -80,4 +77,21 @@ p{
     border-radius: 30px;
     background-color:  hsl(179, 100%, 13%);
     color: white;
+}
+@media (max-width: 700px) {
+
+    .cars{
+        width: 70%;
+        margin-right: 15%;
+        margin-left: 15%;
+
+    }
+    .sedans{
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+    .luxury{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
 }
