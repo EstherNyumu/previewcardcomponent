@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/preview-card-component-using-bootstrap-f0vU0mMpks]
 - Live Site URL: [https://esthernyumu.github.io/previewcardcomponent/]
 
 ## My process
